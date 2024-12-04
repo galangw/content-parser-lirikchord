@@ -1,0 +1,10 @@
+node_modules
+# Ignore contents but keep folders
+uploads/**
+!uploads/.gitkeep
+
+data/**
+!data/.gitkeep
+
+output/**
+!output/.gitkeep

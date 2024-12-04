@@ -1,0 +1,21 @@
+{
+  "name": "chord-processor",
+  "version": "1.0.0",
+  "description": "Process chord and lyrics files",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "axios": "^0.24.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "multer": "^1.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
